@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    height: 550px;
+    width: 350px;
+    background-color: #000000;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0;
+    gap: 8px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+.major{
+    height: 645px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    font-size: 22px;
+    gap: 20px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #4c4f4d; 
+    color: white;
+  }
+.btnLineOne{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 24px;
+}
+.btnLineTwo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 310px;
+}
+.btnLineThree{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.btnLineFour{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.digits{
+    display: flex;
+    flex-direction: row-reverse;
+    color: white;
+    font-size: 50px;
+    font-family:  'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 80px;
+    width: 320px;
+    margin-top: 10px;
+}
+.divi, .mul, .minus,.plus, .equal{
+    background-color: #fd9700;
+    color: white;
+}
+
+.AC, .DEL, .Per{
+    background-color: #a8a6a7;
+    font-size: 22px;
+}
+.seven, .eight, .nine, .four, .five, .six, .one, .two, .three, .zero, .dot{
+    background-color: #323432;
+    color: white;
+}
+body{
+    background-color: #2C2C2C;
+}
+
+
+
+
+
+
+
